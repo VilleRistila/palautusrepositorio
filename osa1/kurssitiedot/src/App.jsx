@@ -37,7 +37,7 @@ const App = () => {
       osa2={part2} määrä2={exercises2}
       osa3={part3} määrä3={exercises3}
       />
-      <Total yhteensä={määrä1 + määrä2 + määrä3} />
+      <Total yhteensä={exercises1 + exercises2 + exercises3} />
     </div>
   )
 }
