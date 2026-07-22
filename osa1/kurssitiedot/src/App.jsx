@@ -27,12 +27,9 @@ const App = () => {
     <div>
       <Header otsikko={course} />
       <Content
-      osa1={part1}
-      määrä1={exercises1}
-      osa2={part2}
-      määrä2={exercises2}
-      osa3={part3}
-      määrä3={exercises3}
+      osa1={part1} määrä1={exercises1}
+      osa2={part2} määrä2={exercises2}
+      osa3={part3} määrä3={exercises3}
       />
       <p>Number of exercises {exercises1 + exercises2 + exercises3}</p>
     </div>
